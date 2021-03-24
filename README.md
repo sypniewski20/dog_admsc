@@ -35,8 +35,8 @@ glimpse(df)
 #### Tabela składa się z 160 obserwacji oraz 5 kolumn:
 
 * `rasa`: rasy badanych psów
-* `CBPI_pkt`: właścicielska ocena bólu wg. skali Canine Brief Pain Inventor - PennCHART (CBPI), wykonywanąa przez opiekunów psów
-* `objawy_usg` : objawy usg (więcej nie rozumiem z tego)
+* `CBPI_pkt`: właścicielska ocena bólu wg. skali Canine Brief Pain Inventor - PennCHART (CBPI), wykonywana przez opiekunów psów
+* `objawy_usg` 
 * `CBPI_wo`: ocena komfortu życia psa w skali:  a – doskonała, b - bardzo dobra, c – dobra, d – słaba, e – zła 
 * `mies`: miesiąc pomiaru
 

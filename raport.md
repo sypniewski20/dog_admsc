@@ -10,26 +10,6 @@ library(readxl)
 library(tidyverse)
 ```
 
-```
-## Warning: package 'tidyverse' was built under R version 4.0.3
-```
-
-```
-## -- Attaching packages ------------------------------------------------------------------------------------------- tidyverse 1.3.0 --
-```
-
-```
-## <U+221A> ggplot2 3.3.2     <U+221A> purrr   0.3.4
-## <U+221A> tibble  3.0.3     <U+221A> dplyr   1.0.2
-## <U+221A> tidyr   1.1.2     <U+221A> stringr 1.4.0
-## <U+221A> readr   1.3.1     <U+221A> forcats 0.5.0
-```
-
-```
-## -- Conflicts ---------------------------------------------------------------------------------------------- tidyverse_conflicts() --
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
-```
 
 #### Załadowanie tabeli:
 
@@ -137,61 +117,6 @@ df %>% ggplot(aes(x=mies,y=CBPI_pkt, fill=rasa)) + geom_boxplot() + theme_classi
 library(lmerTest)
 ```
 
-```
-## Warning: package 'lmerTest' was built under R version 4.0.4
-```
-
-```
-## Loading required package: lme4
-```
-
-```
-## Warning: package 'lme4' was built under R version 4.0.3
-```
-
-```
-## Loading required package: Matrix
-```
-
-```
-## 
-## Attaching package: 'Matrix'
-```
-
-```
-## The following objects are masked from 'package:tidyr':
-## 
-##     expand, pack, unpack
-```
-
-```
-## 
-## Attaching package: 'lmerTest'
-```
-
-```
-## The following object is masked from 'package:lme4':
-## 
-##     lmer
-```
-
-```
-## The following object is masked from 'package:stats':
-## 
-##     step
-```
-
-```r
-fit <- lmer(CBPI_pkt ~ mies + rasa+(1|rasa), df)
-```
-
-```
-## Warning: Model failed to converge with 1 negative eigenvalue: -4.7e-08
-```
-
-```r
-summary(fit)
-```
 
 ```
 ## Linear mixed model fit by REML. t-tests use Satterthwaite's method [
